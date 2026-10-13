@@ -6,14 +6,24 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 [![HTML5 Canvas](https://img.shields.io/badge/Canvas_2D-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/)
-[![Play Online](https://img.shields.io/badge/PLAY_ONLINE-🎮_GitHub_Pages-brightgreen?style=for-the-badge)](https://TierK.github.io/galaga/)
+[![GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://TierK.github.io/galaga/)
+
+---
+
+### 🕹️ [▶️ PLAY ONLINE NOW (GitHub Pages)](https://TierK.github.io/galaga/)
+> 🌐 **Live Demo:** Deployed and hosted directly on **GitHub Pages**! Playable instantly in any web browser on desktop or mobile — zero install required:  
+> 👉 **[https://TierK.github.io/galaga/](https://TierK.github.io/galaga/)**
 
 ---
 
 ## 📸 Gameplay Preview
 
 <p align="center">
-  <img src="docs/gameplay.gif" alt="Galaga 1981 Gameplay" width="600"/>
+  <a href="https://TierK.github.io/galaga/">
+    <img src="docs/gameplay.gif" alt="Galaga 1981 Gameplay - Click to Play" width="600"/>
+  </a>
+  <br>
+  <em>(Click on the preview to play the game live on GitHub Pages!)</em>
 </p>
 
 ---
