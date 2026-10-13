@@ -7,6 +7,7 @@
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 [![HTML5 Canvas](https://img.shields.io/badge/Canvas_2D-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/)
 [![GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://TierK.github.io/galaga/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -115,3 +116,9 @@ Deployable to any cloud server, Render, Railway, or VPS in seconds.
 - Author: **TierK**
 - Built in **Vibe Coding** mode powered by **Google Antigravity**.
 - Inspired by the original 1981 arcade game by Namco.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) — see the LICENSE file for details.
