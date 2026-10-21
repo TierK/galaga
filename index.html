@@ -168,6 +168,48 @@
       box-shadow: 0 0 10px var(--glow-blue);
     }
 
+    .github-btn {
+      border-color: #a855f7 !important;
+      color: #d8b4fe !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      text-decoration: none;
+    }
+
+    .github-btn:hover, .github-btn:active {
+      background: #a855f7 !important;
+      color: #000 !important;
+      box-shadow: 0 0 12px rgba(168, 85, 247, 0.6) !important;
+    }
+
+    .github-corner-btn {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background: rgba(28, 28, 56, 0.85);
+      border: 1px solid #a855f7;
+      color: #d8b4fe;
+      font-family: inherit;
+      font-size: 8px;
+      padding: 6px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      z-index: 90;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .github-corner-btn:hover {
+      background: #a855f7;
+      color: #000;
+      box-shadow: 0 0 10px rgba(168, 85, 247, 0.6);
+    }
+
     /* MOBILE TOUCH CONTROLS DECK */
     #mobile-controls {
       display: none;
@@ -422,7 +464,12 @@
           <button id="btn-crt-toggle" class="arcade-btn">CRT SCANLINES: ON</button>
           <button id="btn-pause-toggle" class="arcade-btn">PAUSE GAME</button>
           <button id="btn-restart" class="arcade-btn" style="border-color: #ff2a2a; color: #ff2a2a;">RESTART</button>
+          <a href="https://github.com/TierK/galaga" target="_blank" rel="noopener noreferrer" class="arcade-btn github-btn" title="Enjoying the game? Give it a Star on GitHub!">
+            <svg height="12" width="12" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: middle;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            ★ STAR ON GITHUB
+          </a>
         </div>
+        <p style="font-size: 7px; color: #a855f7; text-align: center; margin-top: 8px; line-height: 1.4;">ENJOYED? GIVE A ⭐ ON GITHUB!</p>
       </aside>
     </div>
 
@@ -436,11 +483,18 @@
         <div class="mobile-center-actions">
           <button id="mobile-pause-btn" class="mobile-small-btn">PAUSE</button>
           <button id="mobile-sound-btn" class="mobile-small-btn">AUDIO</button>
+          <a href="https://github.com/TierK/galaga" target="_blank" rel="noopener noreferrer" class="mobile-small-btn" style="border-color: #a855f7; color: #d8b4fe; text-decoration: none;" title="Enjoying? Give a Star!">★ STAR</a>
         </div>
 
         <div class="fire-button" id="mobile-fire-btn">FIRE</div>
       </div>
     </div>
+
+    <!-- TOP-LEFT GITHUB LINK (Visible on all screens) -->
+    <a href="https://github.com/TierK/galaga" target="_blank" rel="noopener noreferrer" class="github-corner-btn" title="Enjoying the game? Give it a Star on GitHub!">
+      <svg height="11" width="11" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: middle;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+      ★ STAR
+    </a>
 
     <!-- DEV DEBUG OVERLAY BUTTON & DRAWER -->
     <button id="btn-debug-open" class="debug-toggle-btn">[DEV CHEATS]</button>
